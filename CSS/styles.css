@@ -1,0 +1,15 @@
+body{
+    background-color: #f0c797;
+}
+.GameScreen{
+    margin: auto;
+    border-style: solid;
+    border-color: #00000094;
+    border-width: 7px;
+    border-radius: 9px;
+    text-align: center;
+    background-image:url("/Sprites/Scenery.jpg");
+    background-size: 2000px;
+    background-position: center;
+    height:550px;
+}   
