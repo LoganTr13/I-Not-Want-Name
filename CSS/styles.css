@@ -7,9 +7,25 @@ body{
     border-color: #00000094;
     border-width: 7px;
     border-radius: 9px;
-    text-align: center;
     background-image:url("/Sprites/Scenery.jpg");
     background-size: 2000px;
-    background-position: center;
     height:550px;
+    position: relative;
 }   
+.player{
+    width: 90px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    
+}
+.player img{
+    width:900px;
+    height:900px;
+    /* Frame */
+    margin:0%; 
+    /*------*/
+}
