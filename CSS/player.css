@@ -1,0 +1,12 @@
+.player{
+    /*Define o corte do sprite*/
+    overflow: hidden;
+    width: 40px;
+    height: 55px;
+}
+.player img{
+    width: 500px;
+    /* Apartir do deslocamento no ponto x e y com o object-position,
+    será posivel fazer os frames de uma animação.*/
+    object-position: -5px;
+}
